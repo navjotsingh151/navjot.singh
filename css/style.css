@@ -7041,7 +7041,9 @@ button.bg-dark:focus {
   .px-sm-4 {
     padding-left: 1.5rem !important; }
   .p-sm-5 {
-    padding: 3rem !important; }
+    padding: 4rem !important; }
+    .p-sm-6 {
+    padding: 10rem !important; }
   .pt-sm-5,
   .py-sm-5 {
     padding-top: 3rem !important; }
@@ -8929,6 +8931,17 @@ h1, h2, h3, h4, h5,
     .ftco-hireme h2 span {
       color: #ffbd39; }
 
+.ftco-cert {
+  /*background: #ffbd39;*/
+  z-index: -1; }
+  .ftco-cert h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900; }
+    /*.ftco-cert h2 span {*/
+      /*color: #ffbd39; }*/
+
+
 @media (min-width: 992px) {
   .margin-top {
     margin-top: -70px;
@@ -9219,7 +9232,8 @@ textarea.form-control {
 .user-img {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; }
+  background-position: center center;
+}
 
 .image-popup {
   cursor: -webkit-zoom-in;
